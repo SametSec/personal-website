@@ -1,15 +1,15 @@
-/* =========================================
+/* 
    SAYFANIN GENEL YAPISI (body)
-   ========================================= */
+    */
 body {
     background-color: #f5f5f5; /* Sayfanın arka plan rengi (Açık ve göz yormayan bir gri tonu seçtim) */
     font-family: Arial, sans-serif; /* Sitedeki tüm yazıların tipi Arial olsun */
     color: #333333; /* Genel yazı rengi (Tam siyah değil, okuması daha kolay koyu gri) */
 }
 
-/* =========================================
+/* 
    LİNKLER VE MENÜ DÜĞMELERİ (a)
-   ========================================= */
+   */
 a {
     color: white; /* Linklerin (tıklanabilir yazıların) rengi beyaz olsun */
     text-decoration: none; /* Linklerin altındaki o klasik mavi/mor çizgiyi kaldırır */
@@ -17,18 +17,18 @@ a {
     font-size: 18px; /* Yazı büyüklüğünü ayarlar */
 }
 
-/* =========================================
+/*  
    ALT BAŞLIKLAR (h3)
-   ========================================= */
+    */
 h3 {
     color: #b22222; /* Başlık rengi (Koyu kırmızı/kiremit rengi) */
     border-bottom: 1px solid #ccc; /* Başlığın hemen altına 1 piksellik, düz ve açık gri bir çizgi çizer */
     padding-bottom: 5px; /* Başlık metni ile o altındaki çizgi arasına 5 piksel iç boşluk bırakır */
 }
 
-/* =========================================
+/* 
    SİTEDEKİ RESİMLER (img)
-   ========================================= */
+    */
 img {
     border: 3px solid #555; /* Resimlerin etrafına 3 piksellik koyu gri bir kalın çerçeve çizer */
     margin: 15px; /* Resmin dışından her yöne (alt, üst, sağ, sol) 15 piksel boşluk bırakır, yazılar resme yapışmaz */
