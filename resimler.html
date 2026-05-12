@@ -39,51 +39,51 @@
                 <table align="center" style="width: 100%; border-collapse: separate; border-spacing: 15px;">
                     <tr>
                         <td style="text-align: center; vertical-align: middle; width: 33%;">
-                            <a href="images/resim4.jpeg" target="_blank">
+                            <a href="javascript:void(0);" onclick="resimAc('images/resim4.jpeg')">
                                 <img src="images/resim4.jpeg" style="width: 100%; max-width: 300px;">
                             </a>
                         </td>
                         <td style="text-align: center; vertical-align: middle; width: 33%;">
-                            <a href="images/resim5.jpeg" target="_blank">
+                            <a href="javascript:void(0);" onclick="resimAc('images/resim5.jpeg')">
                                 <img src="images/resim5.jpeg" style="width: 100%; max-width: 300px;">
                             </a>
                         </td>
                         <td style="text-align: center; vertical-align: middle; width: 33%;">
-                            <a href="images/resim6.jpeg" target="_blank">
+                            <a href="javascript:void(0);" onclick="resimAc('images/resim6.jpeg')">
                                 <img src="images/resim6.jpeg" style="width: 100%; max-width: 300px;">
                             </a>
                         </td>
                     </tr>
                     <tr>
                         <td style="text-align: center; vertical-align: middle; width: 33%;">
-                            <a href="images/resim7.jpeg" target="_blank">
+                            <a href="javascript:void(0);" onclick="resimAc('images/resim7.jpeg')">
                                 <img src="images/resim7.jpeg" style="width: 100%; max-width: 300px;">
                             </a>
                         </td>
                         <td style="text-align: center; vertical-align: middle; width: 33%;">
-                            <a href="images/resim8.jpeg" target="_blank">
+                            <a href="javascript:void(0);" onclick="resimAc('images/resim8.jpeg')">
                                 <img src="images/resim8.jpeg" style="width: 100%; max-width: 300px;">
                             </a>
                         </td>
                         <td style="text-align: center; vertical-align: middle; width: 33%;">
-                            <a href="images/resim9.jpeg" target="_blank">
+                            <a href="javascript:void(0);" onclick="resimAc('images/resim9.jpeg')">
                                 <img src="images/resim9.jpeg" style="width: 100%; max-width: 300px;">
                             </a>
                         </td>
                     </tr>
                     <tr>
                         <td style="text-align: center; vertical-align: middle; width: 33%;">
-                            <a href="images/resim1.jpg" target="_blank">
+                            <a href="javascript:void(0);" onclick="resimAc('images/resim1.jpg')">
                                 <img src="images/resim1.jpg" style="width: 100%; max-width: 300px;">
                             </a>
                         </td>
                         <td style="text-align: center; vertical-align: middle; width: 33%;">
-                            <a href="images/resim2.jpg" target="_blank">
+                            <a href="javascript:void(0);" onclick="resimAc('images/resim2.jpg')">
                                 <img src="images/resim2.jpg" style="width: 100%; max-width: 300px;">
                             </a>
                         </td>
                         <td style="text-align: center; vertical-align: middle; width: 33%;">
-                            <a href="images/resim3.jpg" target="_blank">
+                            <a href="javascript:void(0);" onclick="resimAc('images/resim3.jpg')">
                                 <img src="images/resim3.jpg" style="width: 100%; max-width: 300px;">
                             </a>
                         </td>
@@ -93,5 +93,19 @@
         </tr>
     </table>
     <p style="text-align: center; font-size: 12px; color: gray;">© 2026 - Samet Gündüz | Tüm Hakları Saklıdır.</p>S
+    <div id="resimPenceresi" style="display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.85); text-align: center;" onclick="resimKapat()">
+        <span style="position: absolute; top: 20px; right: 40px; color: white; font-size: 50px; font-weight: bold; cursor: pointer;">&times;</span>
+        <img id="buyukResim" style="max-width: 80%; max-height: 80%; margin-top: 5%; border: 5px solid white; box-shadow: 0px 0px 20px black;">
+    </div>
+
+    <script>
+        function resimAc(resimYolu) {
+            document.getElementById("resimPenceresi").style.display = "block";
+            document.getElementById("buyukResim").src = resimYolu;
+        }
+        function resimKapat() {
+            document.getElementById("resimPenceresi").style.display = "none";
+        }
+    </script>
 </body>
 </html>
