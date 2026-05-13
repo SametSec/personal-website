@@ -1,32 +1,20 @@
-/* 
-   1. GENEL SAYFA YAPISI (body)
-*/
 body {
     background-color: #f8f9fa;
     font-family: Arial, sans-serif;
     color: #4a5568;
 }
 
-/*
-   2. BAŞLIKLAR (h1, h2, h3)
-*/
 h1, h2, h3 {
     color: #17365d;
     font-family: 'Verdana', sans-serif;
 }
 
-/*
-   3. LİNKLER VE MENÜ
-*/
 a {
     color: #17365d;
     text-decoration: none;
     font-weight: bold;
 }
 
-/*
-   4. PARAGRAFLAR VE LİSTELER (p, ul, li)
-*/
 p {
     line-height: 1.6;
     text-align: justify;
@@ -36,9 +24,6 @@ ul {
     line-height: 1.8;
 }
 
-/*
-   5. RESİMLER (img)
-*/
 img {
     border: 3px solid #17365d;
 }
